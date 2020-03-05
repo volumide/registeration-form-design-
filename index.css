@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family:'Roboto', sans-serif;
+	line-height: 1.5em;
+}
+body{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container{
+	width: 700px;
+	max-width: 80%;
+	/* background: purple; */
+	border-radius: 15px;
+	overflow: hidden;
+	/* border: solid 1px gray; */
+	box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+	position: relative;
+	/* min-height: 300px; */
+}
+
+.decoration{
+	width: 50%;
+	float: left;
+	color: #fff;
+	
+	background: linear-gradient(to right,rgba(62, 146, 63, 0.5) , rgba(19, 7, 7, 0.7)), url(https://previews.123rf.com/images/byheaven/byheaven1210/byheaven121000005/15566474-levitation-by-indian-businessman-in-lotus-pose-in-the-office-near-the-wall-with-clock-and-his-shoes-.jpg),rgba(0, 0, 0, .9) ;
+	background-size: cover;
+	background-position: bottom;
+	height: 100%;
+	position: absolute;
+}
+.bottom{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* background: green; */
+	padding: 20px;
+}
+h2,p{
+	padding: 5px 10px;
+	font-weight: 500;
+}
+
+.bottom .price{
+	float: right;
+	margin-top: 20px;
+}
+.form{
+	width: 50%;
+	float: right;
+	/* margin-top: 20px; */
+	padding: 30px 30px;
+	background: #fff;
+}
+.form h1{
+	margin-bottom: 20px;
+}
+.formgroup{
+	width: 100%;
+	margin-top: 10px;
+}
+.formgroup input{
+	width: 100%;
+	padding: 10px 8px;
+	margin: 5px 0;
+	border: 1px solid rgba(0, 0, 0, .1);
+	outline: none;
+	border-radius: 5px;
+}
+.formgroup label{
+	font-weight: 500;
+	font-size: 12px;
+	margin: 10px 0;
+	font-weight: 700;
+	color: rgba(0, 0, 0, .7);
+}
+
+.checkboxlabel{
+	float: left;
+}
+input[type='checkbox']{
+	width: 30px;
+	margin: 2px 0;
+	
+}
+
+small{
+	font-size: small;
+}
+
+
